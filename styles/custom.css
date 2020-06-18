@@ -1,40 +1,57 @@
 /* import voor nieuwe font-variabelen */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Roboto&display=swap');
 
 /* via een universele selector gaan we alles aanspreken */
 * {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  color: #092522;
-  margin: 24px;
+  color: #fdffe7;
 }
 
 body {
-  background-color: #ecfffc;
+  background-image:url(LisaBaetsleNature.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
 }
 
 h1 {
     font-family: "Nunito", sans-serif;
     font-weight: 600;
-  font-size: 44px;
-  color: #f80462;
+  font-size: 60px;
+  color: #f8046a;
+  margin-top:0%;
+  margin-bottom:0%;
 }
 
 h2 {
   font-family: "Nunito", sans-serif;
-  font-weight: 800;
-  font-style: italic;
+  font-weight: 700;
+  color: #fdff71;
 }
 
 h3 {
     font-family: "Nunito", sans-serif;
   font-size: 28px;
-  color: #fc6f92;
-  padding-top: 24px;
+  color: #faf606;
+  padding-top: 20px;
+  margin-bottom:0px;
+}
+
+h4{
+  color: #fdff71;
+}
+
+h5 {
+  padding-left: 4%;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0%;
 }
 
 p {
     padding-left: 16px;
+    padding-right: 30%;
     line-height: 1.8;
     padding-bottom: 0px;
 }
@@ -46,4 +63,35 @@ a {
 
 img {
   margin-bottom: 16px;
+}
+
+.aboutMe {
+  background-color: #2a3a14b0;
+  margin: 6%;
+  padding: 4%;
+}
+
+.table {
+  padding-top: 16px;
+  padding-left: 10px;
+  background-color:  #2a3a14e7;
+}
+
+.answer{
+  font-style: italic;
+  border-top: 1px dashed #fdffe7bb; 
+}
+
+.countOnMe {
+  list-style-type: none;
+}
+
+.links {
+  background-color: #2a3a14b0;
+  margin-left: 6%;
+  margin-right: 6%;
+  padding-left: 4%;
+  padding-top: 1px;
+  padding-bottom:1px;
+  margin-bottom: 6%;
 }
